@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>shopify application</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="jumbotron">
+        <h1 class="display-4">The Shoppies</h1>
+        <hr class="my-4" />
+        <div class="search-container">
+          <form id="movieForm" autocomplete="off">
+            <input
+              class="form-control"
+              type="text"
+              id="movie"
+              placeholder="search..."
+            />
+            <button class="btn btn-primary btn-sm" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div id="main">
+      <div class="menu">
+        <h2>Results for _</h2>
+        <div class="item">
+          <div class="add">
+            <h3>Movie title</h3>
+            <p>fdasfsf</p>
+          </div>
+
+          <button type="button" class="btn btn-outline-info">+</button>
+        </div>
+      </div>
+
+      <div class="order">
+        <div>
+          <h3>Nominations</h3>
+          <div class="item">
+            <h4>hobbit Hash</h4>
+            <button type="button" class="btn btn-outline-info">-</button>
+          </div>
+          <p>quantity :1</p>
+          <p>Price :1</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="app.js"></script>
+</html>
