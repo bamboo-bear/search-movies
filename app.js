@@ -9,7 +9,7 @@ $(document).ready(function (event) {
     var movie = $("#movie").val();
     console.log(movie);
 
-    var url = "http://www.omdbapi.com/?apikey=" + apikey;
+    var url = "https://www.omdbapi.com/?apikey=" + apikey;
 
     $.ajax({
       type: "GET",
